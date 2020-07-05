@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Register</h3>
+    <form>
+        <div>
+            <label for="first">First Name:</label>
+            <input type="text" name="first" id="first" placeholder="John" required>
+            <label for="last">Last Name:</label>
+            <input type="text" name="last" id="last" placeholder="Smith" required>
+        </div>
+        <div>
+            <label for="male">Male</label>
+            <input type="radio" name="sex" id="male">
+            <label for="female">Female</label>
+            <input type="radio" name="sex" id="female">
+            <label for="other">Other</label>
+            <input type="radio" name="sex" id="other">
+        </div>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" placeholder="your email" required>
+            <label for="pass">Password:</label>
+            <input type="text" name="pass" id="pass" placeholder="your password" minlength="5" maxlength="10" required>
+        </div>
+        <div>
+            <label for="birthday">Birthday</label>
+            <select name="birthday" id="Month">
+                <option value="january">Month</option>
+            </select>
+            <select name="birthday" id="Day">
+                <option value="day">Day</option>
+            </select>
+            <select name="birthday" id="Year">
+                <option value="year">Year</option>
+            </select>
+        </div>
+        <div>
+            <label for="terms">I agree to the terms and conditions</label>
+            <input type="checkbox" name="terms" id="terms">
+        </div>
+        <input type="submit">
+    </form>
+</body>
+</html>

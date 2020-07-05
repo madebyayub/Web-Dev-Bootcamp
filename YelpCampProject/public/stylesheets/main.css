@@ -1,0 +1,36 @@
+.thumbnail img{
+    width: 100%;
+}
+
+.thumbnail{
+    padding: 0;
+}
+
+#delete-btn{
+    display: inline;
+}
+
+#button1{
+    background: none;
+    color: red;
+    border-style: none;
+    outline: none;
+}
+#button3{
+    background: none;
+    color: red;
+    border-style: none;
+    outline: none;
+}
+#button4{
+    background: none;
+    color: orange;
+    border-style: none;
+    outline: none;
+}
+#button2{
+    background: none;
+    color: orange;
+    border-style: none;
+    outline: none;
+}

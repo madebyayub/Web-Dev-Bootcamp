@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Score Keeper</title>
+    <style>
+        .win{
+            color: green;
+        }
+        .lose{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1><span class="score" id="p1">0</span> to <span class="score" id="p2">0</span></h1>
+    <p>Playing to: <span id="limit">5</span></p>
+    <input type="number" id="quantity" value="5" min="1">
+    <button id="player1" class="player-btn">PLAYER 1</button>
+    <button id="player2" class="player-btn">PLAYER 2</button>
+    <button id="reset-btn">Reset</button>
+    <script src="index.js"></script>
+</body>
+</html>

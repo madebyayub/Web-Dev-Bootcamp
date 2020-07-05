@@ -1,0 +1,18 @@
+img {
+    width: 30%;
+    float: left;
+    margin: 1.66%;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+    margin-left: 1.66%;
+    font-size: 23px;
+    width: 30%;
+    padding-bottom: 2%;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
